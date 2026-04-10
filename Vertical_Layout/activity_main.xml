@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAFBFF"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:text="@string/button_1"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:backgroundTint="#D1C4E9"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:text="@string/button_2"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:backgroundTint="#BBDEFB"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:text="@string/button_3"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:backgroundTint="#C8E6C9"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="@string/back_to_grid"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:backgroundTint="#FFE0B2"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

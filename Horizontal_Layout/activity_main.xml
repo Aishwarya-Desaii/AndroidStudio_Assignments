@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="#FAFBFF"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:backgroundTint="#BBDEFB"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingVertical="10dp"
+        android:text="@string/button_1"
+        android:textAllCaps="false"
+        android:textColor="#37474F"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="@string/button_2"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:backgroundTint="#C8E6C9"
+        android:layout_margin="6dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="@string/button_3"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:backgroundTint="#F8BBD0"
+        android:layout_margin="6dp"/>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:gravity="center"
+        android:paddingVertical="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:backgroundTint="#FFE0B2"
+        android:layout_margin="6dp"/>
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5FAF2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/profile_image"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/profile_image1"/>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile1"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E63"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Personal Details -->
+        <TextView
+            android:text="@string/name_aishwarya_desai1"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/email_aishwaryadesai0107_gmail_com1"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="@string/birth_date_01_july_20052"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Age: 20"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Gender: Female"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Caste: Jain"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Address: Kolhapur, Maharashtra, India"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Phone: 9209131290"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Education Title -->
+        <TextView
+            android:text="Education Details"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E63"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Education Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BAE0DD"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:text="10th - Maharashtra Board - 95%"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="12th - Maharashtra Board - 77%"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="B.Tech CSE - D.Y. Patil College - 9.29 CGPA"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"
+            android:backgroundTint="#A13C3C"/>
+
+    </LinearLayout>
+
+</ScrollView>
